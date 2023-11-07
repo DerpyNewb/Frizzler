@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".SearchMenu">
 
+    <ImageView
+        android:id="@+id/logo"
+        android:elevation="100dp"
+        android:layout_width="44dp"
+        android:layout_height="43dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/bottombar"
         android:layout_width="417dp"
@@ -47,6 +60,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#00FFFFFF"
         android:text="Fridge"
+        android:elevation="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.622"
@@ -105,7 +119,7 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintHorizontal_bias="0.131"
         app:layout_constraintStart_toStartOf="@+id/toolbar2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />

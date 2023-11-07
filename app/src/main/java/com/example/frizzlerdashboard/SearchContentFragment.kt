@@ -28,5 +28,6 @@ class SearchContentFragment : Fragment() {
         // TODO: Use the ViewModel
     }
 
+
 }
 

@@ -16,18 +16,19 @@
         android:layout_marginStart="6dp"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="217dp"
-        android:text="Search by Ingredients" />
+        android:text="Search by Ingredients"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="188dp"
-        android:layout_height="21dp"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="10dp"
         android:layout_marginTop="208dp"
-        android:layout_marginEnd="213dp"
+        android:layout_marginEnd="212dp"
         android:text="Search by Food"
         android:textStyle="bold" />
 
@@ -57,28 +58,31 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 app:cardBackgroundColor="@color/white"
-                app:cardCornerRadius="10dp"
-                app:cardElevation="5dp">
-
-                <ImageView
-                    android:id="@+id/egg"
-                    android:layout_width="1in"
-                    android:layout_height="1in"
-                    android:layout_margin="5dp"
-                    android:background="@color/white"
-                    android:cropToPadding="false"
-                    android:elevation="3dp"
-                    android:src="@drawable/egg" />
+                app:cardCornerRadius="10dp">
 
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="157dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="bottom"
-                    android:paddingLeft="1.1in"
+                    android:elevation="100dp"
+
                     android:text="egg"
+                    android:textAlignment="center"
                     android:textSize="23sp"
                     android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/egg"
+                    android:layout_width="151dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:cropToPadding="false"
+                    android:elevation="1dp"
+                    android:src="@drawable/egg" />
+
+
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -99,11 +103,12 @@
 
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="157dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="bottom"
-                    android:paddingLeft="1.1in"
+                    android:elevation="100dp"
                     android:text="Lettuce"
+                    android:textAlignment="center"
                     android:textSize="23sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
@@ -126,11 +131,12 @@
 
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="168dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="bottom"
-                    android:paddingLeft="1.1in"
+                    android:elevation="100dp"
                     android:text="potato"
+                    android:textAlignment="center"
                     android:textSize="23sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
@@ -153,11 +159,12 @@
 
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="158dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="bottom"
-                    android:paddingLeft="1.1in"
+                    android:elevation="100dp"
                     android:text="star anise"
+                    android:textAlignment="center"
                     android:textSize="23sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
@@ -171,8 +178,8 @@
                 app:cardElevation="5dp">
 
                 <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
+                    android:layout_width="156dp"
+                    android:layout_height="147dp"
                     android:layout_margin="10dp"
                     android:background="@color/white"
                     android:elevation="3dp"
@@ -180,11 +187,12 @@
 
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="162dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="bottom"
-                    android:paddingLeft="1.1in"
+                    android:elevation="100dp"
                     android:text="turmeric"
+                    android:textAlignment="center"
                     android:textSize="23sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
@@ -207,11 +215,12 @@
 
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="138dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="bottom"
-                    android:paddingLeft="1.1in"
+                    android:elevation="100dp"
                     android:text="orangu"
+                    android:textAlignment="center"
                     android:textSize="23sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
