@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".FridgeFragment2">
+<HorizontalScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="All">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Breakfast">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Brunch">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Lunch">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Dinner">
+        </Button>
+
+    </LinearLayout>
+
+</HorizontalScrollView>
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/bottombar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.925">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="172dp"
+                    android:layout_height="132dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="113dp"
+                        android:elevation="3dp"
+                        android:src="@drawable/imge" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_dynamic_neutral60"
+                        android:gravity="bottom"
+                        android:text="Peanut Butter Cookies"
+                        android:textAlignment="center"
+                        android:textColor="@color/material_dynamic_primary10">
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="172dp"
+                    android:layout_height="132dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="113dp"
+                        android:elevation="3dp"
+                        android:src="@drawable/imge" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_dynamic_neutral60"
+                        android:gravity="bottom"
+                        android:text="Peanut Butter Cookies"
+                        android:textAlignment="center"
+                        android:textColor="@color/material_dynamic_primary10">
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="172dp"
+                    android:layout_height="132dp"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="113dp"
+                        android:elevation="3dp"
+                        android:src="@drawable/imge" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_dynamic_neutral60"
+                        android:gravity="bottom"
+                        android:text="Peanut Butter Cookies"
+                        android:textAlignment="center"
+                        android:textColor="@color/material_dynamic_primary10">
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="172dp"
+                    android:layout_height="132dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="113dp"
+                        android:elevation="3dp"
+                        android:src="@drawable/imge" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_dynamic_neutral60"
+                        android:gravity="bottom"
+                        android:text="Peanut Butter Cookies"
+                        android:textAlignment="center"
+                        android:textColor="@color/material_dynamic_primary10">
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="172dp"
+                    android:layout_height="132dp"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="113dp"
+                        android:elevation="3dp"
+                        android:src="@drawable/imge" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_dynamic_neutral60"
+                        android:gravity="bottom"
+                        android:text="Peanut Butter Cookies"
+                        android:textAlignment="center"
+                        android:textColor="@color/material_dynamic_primary10">
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="172dp"
+                    android:layout_height="132dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="113dp"
+                        android:elevation="3dp"
+                        android:src="@drawable/imge" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_dynamic_neutral60"
+                        android:gravity="bottom"
+                        android:text="Peanut Butter Cookies"
+                        android:textAlignment="center"
+                        android:textColor="@color/material_dynamic_primary10">
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="172dp"
+                    android:layout_height="132dp"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="113dp"
+                        android:elevation="3dp"
+                        android:src="@drawable/imge" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_dynamic_neutral60"
+                        android:gravity="bottom"
+                        android:text="Peanut Butter Cookies"
+                        android:textAlignment="center"
+                        android:textColor="@color/material_dynamic_primary10">
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="172dp"
+                    android:layout_height="132dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="113dp"
+                        android:elevation="3dp"
+                        android:src="@drawable/imge" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_dynamic_neutral60"
+                        android:gravity="bottom"
+                        android:text="Peanut Butter Cookies"
+                        android:textAlignment="center"
+                        android:textColor="@color/material_dynamic_primary10">
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="172dp"
+                    android:layout_height="132dp"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="113dp"
+                        android:elevation="3dp"
+                        android:src="@drawable/imge" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_dynamic_neutral60"
+                        android:gravity="bottom"
+                        android:text="Peanut Butter Cookies"
+                        android:textAlignment="center"
+                        android:textColor="@color/material_dynamic_primary10">
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="172dp"
+                    android:layout_height="132dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="113dp"
+                        android:elevation="3dp"
+                        android:src="@drawable/imge" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/material_dynamic_neutral60"
+                        android:gravity="bottom"
+                        android:text="Peanut Butter Cookies"
+                        android:textAlignment="center"
+                        android:textColor="@color/material_dynamic_primary10">
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button" />
+
+</LinearLayout>
