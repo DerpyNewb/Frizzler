@@ -6,189 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ScrollView
-        android:id="@+id/scrollView3"
-        android:layout_width="378dp"
-        android:layout_height="748dp"
-        android:overScrollMode="never"
-        android:scrollbars="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/bottombar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/toolbar2"
-        app:layout_constraintVertical_bias="0.925">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                app:cardBackgroundColor="@color/white"
-                app:cardCornerRadius="5dp"
-                app:cardElevation="5dp">
-
-                <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
-                    android:layout_margin="5dp"
-                    android:background="@color/white"
-                    android:elevation="3dp"
-                    android:src="@drawable/imge" />
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:paddingLeft="1.1in"
-                    android:text="Food Title"
-                    android:textSize="23sp"
-                    android:textStyle="bold" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                app:cardBackgroundColor="@color/white"
-                app:cardCornerRadius="5dp"
-                app:cardElevation="5dp">
-
-                <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
-                    android:layout_margin="5dp"
-                    android:background="@color/white"
-                    android:elevation="3dp"
-                    android:src="@drawable/imge" />
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:paddingLeft="1.1in"
-                    android:text="Food Title"
-                    android:textSize="23sp"
-                    android:textStyle="bold" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                app:cardBackgroundColor="@color/white"
-                app:cardCornerRadius="5dp"
-                app:cardElevation="5dp">
-
-                <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
-                    android:layout_margin="5dp"
-                    android:background="@color/white"
-                    android:elevation="3dp"
-                    android:src="@drawable/imge" />
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:paddingLeft="1.1in"
-                    android:text="Food Title"
-                    android:textSize="23sp"
-                    android:textStyle="bold" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                app:cardBackgroundColor="@color/white"
-                app:cardCornerRadius="5dp"
-                app:cardElevation="5dp">
-
-                <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
-                    android:layout_margin="5dp"
-                    android:background="@color/white"
-                    android:elevation="3dp"
-                    android:src="@drawable/imge" />
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:paddingLeft="1.1in"
-                    android:text="Food Title"
-                    android:textSize="23sp"
-                    android:textStyle="bold" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                app:cardBackgroundColor="@color/white"
-                app:cardCornerRadius="5dp"
-                app:cardElevation="5dp">
-
-                <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
-                    android:layout_margin="5dp"
-                    android:background="@color/white"
-                    android:elevation="3dp"
-                    android:src="@drawable/imge" />
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:paddingLeft="1.1in"
-                    android:text="Food Title"
-                    android:textSize="23sp"
-                    android:textStyle="bold" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                app:cardBackgroundColor="@color/white"
-                app:cardCornerRadius="5dp"
-                app:cardElevation="5dp">
-
-                <ImageView
-                    android:layout_width="1in"
-                    android:layout_height="1in"
-                    android:layout_margin="5dp"
-                    android:background="@color/white"
-                    android:elevation="3dp"
-                    android:src="@drawable/imge" />
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:paddingLeft="1.1in"
-                    android:text="Food Title"
-                    android:textSize="23sp"
-                    android:textStyle="bold" />
-            </androidx.cardview.widget.CardView>
-
-        </LinearLayout>
-    </ScrollView>
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/bottombar"
         android:layout_width="417dp"
@@ -270,8 +87,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="3dp"
         android:text="Frizzler"
         android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.037"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
@@ -302,6 +121,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
 
+=======
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="44dp"
@@ -313,5 +137,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/logo"/>
+=======
+        app:srcCompat="@drawable/logo" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView3"
+        android:name="com.example.frizzlerdashboard.HomeFragment"
+        android:layout_width="404dp"
+        android:layout_height="803dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottombar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
