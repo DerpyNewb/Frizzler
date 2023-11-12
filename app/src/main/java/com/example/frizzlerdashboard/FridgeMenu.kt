@@ -30,16 +30,16 @@ class FridgeMenu : AppCompatActivity() {
         }
 
         val Hbutton = findViewById<Button>(R.id.Homebtn)
+        val Sbutton = findViewById<Button>(R.id.Searchbtn)
         val Sebutton = findViewById<Button>(R.id.Settingbtn)
-        val Fbutton = findViewById<Button>(R.id.Fridgebtn)
 
 
-        Sebutton.setOnClickListener {
-            val intent = Intent(this, SettingMenu::class.java)
+        Sbutton.setOnClickListener {
+            val intent = Intent(this, SearchMenu::class.java)
             startActivity(intent)
         }
-        Fbutton.setOnClickListener {
-            val intent = Intent(this, FridgeMenu::class.java)
+        Sebutton.setOnClickListener {
+            val intent = Intent(this, SettingMenu::class.java)
             startActivity(intent)
         }
         Hbutton.setOnClickListener {
